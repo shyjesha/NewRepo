@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-   git 'https://github.com/shyjesha/NewRepo'
+   git 'https://github.com/shyjesha/NewRepo.git'
    }
    stage('Build'){
    sh 'mvn clean package'
